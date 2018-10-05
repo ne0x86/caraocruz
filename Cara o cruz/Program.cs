@@ -14,7 +14,7 @@ namespace Cara_o_cruz
             for (int i = 0; i < tiradas; i++) //bucle for para que se ejecute las tiradas que elija el usuario
             {
                 int n = generador.Next(2); //generador de números del 0 al 1; 0 cruz y 1 cara
-                if (n == 1)
+                if (n == 1) 
                 {
                     Console.WriteLine("Ha salido cara!"); //si sale 1 muestra este mensaje y suma 1 al contador caras
                      nCaras++;
