@@ -6,8 +6,8 @@ namespace Cara_o_cruz
     {
         static void Main(string[] args)
         {
-            int nCaras = 0;
-            int nCruces = 0;
+            int nCaras = 0; //contador de caras
+            int nCruces = 0; //contador de cruces
             Random generador = new Random(); 
             Console.WriteLine("Dime cuantas tiradas quieres");
             int tiradas = int.Parse(Console.ReadLine());
